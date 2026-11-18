@@ -12,6 +12,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.jspecify.annotations.NonNull;
 
 /// JDBC - DriverManager 사용
+/// - 데이터베이스 커넥션을 매 번 획득
 @Slf4j
 public class MemberRepositoryV0 {
 
